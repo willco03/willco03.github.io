@@ -1,0 +1,134 @@
+body{
+    font-family:'EB Garamond', 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding:10px;
+    border:2px solid #000000;
+    background-color: #e1e1e1;
+}
+nav{
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 1px 1px 1px 1px #8a8a8a;
+    border-radius: 5%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 10%;
+    background-color: #f1f1f1;
+}
+nav:hover{
+    box-shadow: 2px 2px 2px 2px #6a6a6a;
+}
+.splash h1{
+    display:flex;
+    justify-content: center;
+    font-family: "Arsenal SC", serif;
+    color:#770000;
+}
+.splash img{
+    display:grid;
+    justify-self: center;
+    border: 5px dashed #770000;
+    background-color: #4f0000;
+    border-radius: 50%;
+    
+}
+.splash p{
+    display:flex;
+    justify-content:center;
+    background-color: #f1f1f1;
+    text-align: center;
+    text-decoration:overline;
+}
+hr{
+    border:5px dashed #770000;
+    background-color: #4a0000;
+}
+h2{
+    font-family:"Arsenal SC", serif;
+    font-size:22px;
+    background-color:#f1f1f1;
+    display:grid;
+    justify-content: center;
+}
+
+.edu p{
+    display:grid;
+    justify-content:center;
+    text-align: center;
+    border:1px dotted #ffffff;
+}
+
+.honors dl{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    text-align: center;
+    border:1px dotted #ffffff;
+    font-size:18px;
+}
+
+.skills ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    text-align:center;
+    border:1px dotted #ffffff;
+    font-size:18px;
+}
+
+.exp dl{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 225px 200px;
+    border:1px dotted #ffffff;
+
+    text-align: center;
+}
+.exp a{
+    color: #770000;
+    text-decoration: none;
+}
+.exp a:hover{
+    color: #2f0000;
+}
+.proj h2{
+    display:grid;
+    justify-content: center;;
+}
+.three-col{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:10px;
+    text-align: center; 
+
+}
+.card {
+    border: 1px solid #000000;
+    padding: 5px;
+    box-shadow: 4px 3px 1px 1px #8a8a8a;
+    background-color: #f1f1f1;
+
+}
+.card:hover{
+    box-shadow: 6px 6px 2px 2px #8a8a8a;
+}
+footer{
+
+    background-color: #f1f1f1;
+    margin-top:48px;
+    padding: 8px;
+    border-top: 4px dotted black;
+    display:flex;
+    justify-content:center;
+
+}
+.one-col {
+    display:grid;
+    grid-template-columns: 25%;
+
+}
+.one-col button{
+    width:50%;
+}
+
